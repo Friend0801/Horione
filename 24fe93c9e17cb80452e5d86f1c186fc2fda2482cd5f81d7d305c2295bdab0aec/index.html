@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Welcome</title>
-  </head>
-  <body>
-    <h1>Success!</h1>
-  </body>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+<title>Motoki</title>
+<link rel="stylesheet" href="../css/pack.css">
+<style>
+</style>
+</head>
+<body>
+
+<center>
+<div class="content">
+
+
+	<div class="title">
+		<img src="https://img.icons8.com/clouds/2x/minecraft-creeper.png"width="450" height="450">
+		<h1>Horioneチートコード一覧</h1>
+		
+		<h4>ここにもしほしいコードがなかった場合下のサイトを参考にしてください</h4>
+
+		<a href="https://mine-craftlife.com/entry/itemid-list">アイテム</a>
+
+		<a href="https://minecraft-ja.gamepedia.com/エンチャント/ID">エンチャント</a>
+
+		<a href="https://gamepedia.jp/minecraft/archives/2050">ポーション</a>
+
+
+    </div>
+    <h2>giveコマンド</h2>
+</div>
+<div class="content">
+ <h3>パン</h3>
+ <h4>.give bread 64</h4>
+
+ <div style="position: absolute; opacity:0;">
+ <input id="copy2" type="text" value=".give bread 64" readonly>
+ </div>
+ <button onclick="cp1()">コピーボタン</button>
+	
+	
+ <script>
+ function cp1(){
+   var txt = document.getElementById("copy2");
+   txt.select();
+ document.execCommand("Copy");
+ }
+ </script>
+
+</div>
+
+<div class="content">
+	<h3>ビーフ</h3>
+	<h4>.give cooked_beef 64</h4>
+   
+	<div style="position: absolute; opacity:0;">
+	<input id="copy1" type="text" value=".give cooked_beef 64" readonly>
+	</div>
+	<button onclick="cp()">コピーボタン</button>
+	   
+	   
+	<script>
+	function cp(){
+	  var txt = document.getElementById("copy1");
+	  txt.select();
+	document.execCommand("Copy");
+	}
+	</script>
+
+ <h3>透明化</h3>
+ <h4>.give splash_potion 64 8</h4>
+
+ <div style="position: absolute; opacity:0;">
+ <input id="copy3" type="text" value=".give splash_potion 64 8" readonly>
+ </div>
+ <button onclick="cp3()">コピーボタン</button>
+   
+   
+  <script>
+ function cp3(){
+ var txt = document.getElementById("copy3");
+   txt.select();
+ document.execCommand("Copy");
+ }
+ </script>
+
+	
+
+	
+   
+</div>
+</center>
+
+
+</body>
 </html>
